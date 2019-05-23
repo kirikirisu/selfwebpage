@@ -1,0 +1,15 @@
+.bar {
+  width: auto;
+  height: 40px;
+  background-color: lightcoral;
+  overflow: hidden;
+}
+
+.bar .numbersize {
+  font-size: 30px;
+  position: relative;
+}
+
+.gametitle {
+  font-size: 30px;
+}
