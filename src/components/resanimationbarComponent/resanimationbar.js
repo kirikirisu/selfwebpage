@@ -13,7 +13,7 @@ const AnimationBar = ({ img, num }) => (
         <div className="resbar" style={{ height: (props.number) * 1.3 }}>
           {props.number.toFixed()}Hour
         </div>
-        <img src={img} />
+        <img className="barimg" src={img} />
       </div>
     )}
   </Spring>
