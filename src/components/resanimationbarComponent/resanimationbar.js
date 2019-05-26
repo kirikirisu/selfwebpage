@@ -1,8 +1,8 @@
 import React from 'react';
 import { Spring } from 'react-spring/renderprops';
-import '../../styles/animationbar.css';
+import '../../styles/resanimationbar.css';
 
-const AnimationBar = ({ title, num }) => (
+const AnimationBar = ({ img, num }) => (
   <Spring
     from={{ number: 0 }}
     to={{ number: num }}
@@ -10,10 +10,10 @@ const AnimationBar = ({ title, num }) => (
   >
     {props => (
       <div>
-        <div className="gametitle">{title}</div>
-        <div className="bar" style={{ width: (props.number) * 2.5 }}>
-          <div className="numbersize">{props.number.toFixed()}Hour</div>
+        <div className="resbar" style={{ height: (props.number) * 1.3 }}>
+          {props.number.toFixed()}Hour
         </div>
+        <img src={img} />
       </div>
     )}
   </Spring>

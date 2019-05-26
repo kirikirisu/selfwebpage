@@ -12,7 +12,7 @@ const Header = () => (
     <Navbar.Collapse className="ml-2" id="basic-navbar-nav">
       <Nav className="mr-auto">
         <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-        <LinkContainer to="/Work"><Nav.Link>Work</Nav.Link></LinkContainer>
+        <LinkContainer to="/Work"><Nav.Link>Products</Nav.Link></LinkContainer>
         <NavDropdown title="Hobby" id="nav-dropdown">
           <LinkContainer to="/Game"><NavDropdown.Item>GAME</NavDropdown.Item></LinkContainer>
           <LinkContainer to="/"><NavDropdown.Item>CODING</NavDropdown.Item></LinkContainer>

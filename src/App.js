@@ -6,9 +6,11 @@ import Game from './components/gamePageComponent/game';
 
 const App = () => (
   <BrowserRouter>
-    <Route exact path='/' component={Home} />
-    <Route exact path='/Work' component={Work} />
-    <Route exact path='/Game' component={Game} />
+    <div>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/Work' component={Work} />
+      <Route exact path='/Game' component={Game} />
+    </div>
   </BrowserRouter>
 );
 
