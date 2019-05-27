@@ -2,12 +2,13 @@ import React, { useState, useCallback } from 'react';
 import { useTransition, animated } from 'react-spring';
 import FirstSlid from '../firstslidComponent/firstslid';
 import SecondSlid from '../secondslideComponent/secondslid';
+import ThirdSlid from '../thirdslidComponent/thirdslid';
 import '../../styles/slid.css';
 
 const pages = [
   ({ style }) => <animated.div style={{ ...style, background: 'lightpink' }}><FirstSlid /></animated.div>,
   ({ style }) => <animated.div style={{ ...style, background: 'lightblue' }}><SecondSlid /></animated.div>,
-  ({ style }) => <animated.div style={{ ...style, background: 'lightgreen' }}>C</animated.div>,
+  ({ style }) => <animated.div style={{ ...style, background: 'lightgreen' }}><ThirdSlid /></animated.div>,
 ];
 
 const Slid = () => {
