@@ -1,7 +1,7 @@
 ## 確認方法
 
 ```
-https://github.com/kirikirisu/selfwebpage.git
+git clone https://github.com/kirikirisu/selfwebpage.git
 ```
 
 して、
@@ -24,5 +24,5 @@ npm start
 してください。
 
 ## 概要
-まだ未完成の物ですみません。
+未完成の物ですみません。
 プロジェクトはcreate-react-appによって作成しました。
