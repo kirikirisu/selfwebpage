@@ -15,9 +15,9 @@ const StatusHobby = () => (
           <Link to="/Game" className="first-hobby">
             GAME
           </Link>
-          <div className="second-hobby">
-            CODING
-            </div>
+          <Link to="/Belong" className="second-hobby">
+            Belong
+          </Link>
           <div className="third-hobby">
             DTM
           </div>
